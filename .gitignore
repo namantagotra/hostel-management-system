@@ -14,3 +14,6 @@ hostel-fullstack-frontend/build/
 # OS files
 .DS_Store
 Thumbs.db
+.env
+hostel-fullstack-backend/.env
+hostel-fullstack-frontend/.env
