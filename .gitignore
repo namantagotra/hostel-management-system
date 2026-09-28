@@ -1,0 +1,16 @@
+# Dependencies
+hostel-fullstack-backend/node_modules/
+hostel-fullstack-frontend/node_modules/
+node_modules/
+
+# Environment variables
+hostel-fullstack-backend/.env
+hostel-fullstack-frontend/.env
+.env
+
+# Build files
+hostel-fullstack-frontend/build/
+
+# OS files
+.DS_Store
+Thumbs.db
