@@ -22,7 +22,7 @@ const Attendance = ({ attendance, user, reload }) => {
                 try {
                     await api.attendance.mark({ latitude, longitude, location: user.hostel });
                     await reload();
-                    alert('✅ Attendance marked!');
+                    alert('✅ Attendance is marked!');
                 } catch (err) { alert(err.message); }
                 finally { setLoading(false); }
             },
