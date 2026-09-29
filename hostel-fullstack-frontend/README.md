@@ -152,3 +152,27 @@ Builds optimized production bundle in `build/`
 ---
 
 **Built for efficiency and performance** ⚡
+
+SUMMARY:
+Hostel Management System (HMS) — a React web app with three user roles and a student admission flow.
+
+Three roles:
+
+Admin (superadmin@college.edu) — manages hostel manager profiles (create/edit/delete) and views all student data
+Hostel Manager (manager@college.edu) — handles day-to-day operations: rooms, students, complaints, mess, outpass, attendance, notices, visitors, room changes
+Student — accesses their own dashboard for complaints, outpass requests, mess schedule, room change, visitor registration, attendance, and notices
+
+Hostel Admission flow:
+
+Anyone can click "Apply for Hostel Admission" on the login page without logging in
+They fill a form (name, email, student ID, gender, department, year, preferred hostel/room type) and set a password
+After submitting they can log in with that email/password to see a status page — pending, rejected (with reason), or approved (with allotted room)
+Once approved by the manager, logging back in as a Student gives them full dashboard access
+
+Manager's application workflow:
+
+"Hostel Applications" sidebar item shows a red badge with pending count
+Manager can approve → picks an available room (preferred matches highlighted first) → room is marked occupied and student is added to the system
+Manager can reject → must provide a reason, which the applicant sees on their status page
+
+Tech: React (no backend, all in-memory state), single CSS file, responsive layout with collapsible sidebar.
