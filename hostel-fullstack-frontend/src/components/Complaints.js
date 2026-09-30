@@ -16,7 +16,7 @@ const Complaints = ({ complaints, user, reload }) => {
     const statusCount = (s) => s === 'all' ? allVisible.length : allVisible.filter(c => c.status === s).length;
 
     const submitComplaint = async () => {
-        if (!form.description.trim()) return alert('Please describe the issue clearly.');
+        if (!form.description.trim()) return alert('Please describe the issue in a better way');
         setSaving(true);
         try {
             await api.complaints.create({ type: form.type, description: form.description.trim() });
