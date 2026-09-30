@@ -176,3 +176,7 @@ Manager can approve → picks an available room (preferred matches highlighted f
 Manager can reject → must provide a reason, which the applicant sees on their status page
 
 Tech: React (no backend, all in-memory state), single CSS file, responsive layout with collapsible sidebar.
+
+Super Admin  →  admin@university.edu    /  admin@123
+Hostel Warden→  warden@university.edu   /  warden@123
+Student      →  alex@university.edu     /  student@123
