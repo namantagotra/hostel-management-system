@@ -54,7 +54,7 @@ Download from https://nodejs.org (LTS version)
 4. Click **Connect** → **Drivers**
 5. Copy the connection string — looks like:
    `mongodb+srv://username:password@cluster0.xxxxx.mongodb.net/`
-
+make sure internet connected
 ### Step 3 — Get free Cloudinary account (for file uploads)
 1. Go to https://cloudinary.com and sign up (free)
 2. Go to Dashboard
