@@ -185,7 +185,6 @@ You should see: `{ "status": "ok", "message": "HMS Backend running" }`
 
 ## 📦 Demo Login Credentials
 ```
-Super Admin  →  superadmin@college.edu  /  superadmin123
-Manager      →  manager@college.edu     /  manager123
-Student      →  john@college.edu        /  student123
-```
+Super Admin  →  admin@university.edu    /  admin@123
+Hostel Warden→  warden@university.edu   /  warden@123
+Student      →  alex@university.edu     /  student@123
